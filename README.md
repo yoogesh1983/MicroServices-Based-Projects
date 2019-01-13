@@ -25,7 +25,7 @@
 
 # What are the technologies are used to complete this MicroService Project ? </br>
 <strong>1) Eureka Service Discovery/Registry :</strong> </br>
-  &nbsp; => To configure all applications Running port on Eureka server where all Elient Eureka will read those from server.
+=> To configure all applications Running port on Eureka server where all Elient Eureka will read those from server.
 
 
 
