@@ -46,8 +46,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp; </br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;2) Hystrix Circuit Bracker : </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> If the situation is dire, then a circuit breaker kicks into prevent any further network calls, i.e. it prevent the cascading of failure </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> if it get an excption more then ... times, then now it will not call the hystrix method, and instead it will directly call the fallback method instead </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> If the situation is dire, then a circuit breaker kicks into prevent any further network calls i.e. it prevent the cascading 
+</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of failure </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> if it get an excption more then ... times, then now it will not call the hystrix method, and instead it will directly call the </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fallback method instead </br>
 
 
                                 
