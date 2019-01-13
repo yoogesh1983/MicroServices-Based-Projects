@@ -11,6 +11,10 @@
 
 # How to compile and run the application ?
 > Right click on project select Run -> Maven build ... </br>
+> Under Main Tab in Goal Section do the following -> clean install </br>
+> Under JRE tab, select alternate JRE and select the JDK you have setup from Runtime environment </br>
+> Save a name as ${ApplicationName_COMPILER} and then Run </br>
+> Now to run the application, Go to MainMethod of the applications -> run as -> Java Application
 
 &nbsp; - Upon running this command will create style.css under the 'public/owner' folder. However sometimes the command may hangs on while runnig this command. in this case, you may need to change 'dev' with 'compile:sass' in package.json and run the command 'npm run compile:sass'. Now once this runs successfully, you may change back it to 'dev' from then onwards it should start working on 'npm run dev' too. Bug!! </br>
 
