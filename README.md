@@ -23,13 +23,13 @@
 > Select term and condition </br>
 > You will get the key now </br>
 
-# What are the technologies are used to complete this MicroService Project ? </br>
+# Technology Used for Application</br>
 <strong>1) Eureka Service Discovery/Registry :</strong>
 - To configure all applications Running port on Eureka server where all Elient Eureka will read those from server </br>
 - Eureka Server is configured on <b>eureka-Service-Registry</b> application</br>
 - Eureka client is configured on <b>Positiontracking</b> and <b>vehicleTracking</b> application</br>
 
-<strong>2) Ribbon :</strong> </br>
+<strong>2) Ribbon :</strong>
 - This is For ClientSide load balancing ( Multiple instances of same application) </br>
 - Configured on <b>Positiontracking</b> and <b>vehicleTracking</b> application</br>
 - Need to do a configuration on <b>PositionTracking</b> application so that seperate instances created when started more than one times</br>
@@ -37,7 +37,7 @@
 <b>VehicleTracking</b> application so that when Rest call is called, it will load balance and call seperate instances </br>
 - Need to start the <b>positiontracking</b> application more than one times </br>
 
-<strong>3) Hystrix :</strong> </br>
+<strong>3) Hystrix :</strong>
 - It provides two major features: </br>
 &nbsp;&nbsp;&nbsp;&nbsp;1) Hystrix FallBack: </br>
 &nbsp;&nbsp;&nbsp;&nbsp;2) Hystrix Circuit Bracker: </br>
