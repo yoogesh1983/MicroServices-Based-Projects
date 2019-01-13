@@ -24,7 +24,7 @@
 > You will get the key now </br>
 
 # What are the technologies are used to complete this MicroService Project ? </br>
-<strong>1) Eureka Service Discovery/Registry :</strong> </br>
+<strong>1) Eureka Service Discovery/Registry :</strong>
 - To configure all applications Running port on Eureka server where all Elient Eureka will read those from server </br>
 - Eureka Server is configured on <b>eureka-Service-Registry</b> application</br>
 - Eureka client is configured on <b>Positiontracking</b> and <b>vehicleTracking</b> application</br>
