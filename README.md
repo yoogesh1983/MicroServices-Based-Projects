@@ -27,19 +27,13 @@
 <strong>1) Eureka Service Discovery/Registry :</strong> </br>
 - To configure all applications Running port on Eureka server where all Elient Eureka will read those from server </br>
 - Eureka Server is configured on <b>eureka-Service-Registry</b> application</br>
-- Eureka client is configured on "Positiontracking" and "vehicleTracking" application</br>
+- Eureka client is configured on <b>Positiontracking</b> and <b>vehicleTracking</b> application</br>
 
-
-
-
-1) Eureka Service Discovery/Registry -----------> 
-                                                  
-        => Eureka Server is configured on "eureka-Service-Registry" application     
-        => Eureka client is configured on "Positiontracking" and "vehicleTracking" application
-                                          
-        
-                                                  
-                                                  
+<strong>2) Ribbon :</strong> </br>
+- This is For ClientSide load balancing ( Multiple instances of same application) </br>
+- Eureka Server is configured on <b>eureka-Service-Registry</b> application</br>
+- Eureka client is configured on <b>Positiontracking</b> and <b>vehicleTracking</b> application</br>
+                                
 2) Ribbon ------------------> For ClientSide load balancing ( Multiple instances of same application)
 
          => Configured on "Positiontracking" and "vehicleTracking" application 
