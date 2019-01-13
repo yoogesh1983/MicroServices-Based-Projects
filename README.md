@@ -18,6 +18,10 @@
 > Now to run the application, Go to MainMethod of the applications -> run as -> Java Application </br>
 
 # How to get Google Keys ? </br>
-- Go to https://developers.google.com/maps/documentation/javascript/get-api-key
+- Go to https://developers.google.com/maps/documentation/javascript/get-api-key </br>
+- Click on "Get key" tab </br>
+- Select term and condition </br>
+- You will get the key now </br>
+
 
 
