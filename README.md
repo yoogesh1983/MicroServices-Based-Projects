@@ -38,8 +38,8 @@
 - Need to start the <b>positiontracking</b> application more than one times </br>
 
 <b>3) Hystrix : </b> It provides two major features: </br>
-&nbsp;1) Hystrix FallBack: </br>
-&nbsp;2) Hystrix Circuit Bracker: </br>
+&nbsp;&nbsp;&nbsp;&nbsp;1) Hystrix FallBack: </br>
+&nbsp;&nbsp;&nbsp;&nbsp;2) Hystrix Circuit Bracker: </br>
 
 
                                 
