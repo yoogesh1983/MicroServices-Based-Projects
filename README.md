@@ -65,7 +65,7 @@
 - Internally Ribbon is included here, so you don't need Ribbon(loadBalancer) seperately </br>
 - Configured only on <b>vehicleTracking</b> application  </br>
 
-<strong>5) Feign :</strong> </br>
+<strong>5) Spring Cloud Config :</strong> </br>
 - It is to manage global values. ex: in our every properties file, there is same thing on all. this means if we need to change any one let's  say eureka location, or jms location we need to go every properties file of the every applacion and do it, which is cumbursome.
 - One option to get rid of this is create another microservice applacion which will manage this, but we don't another level of coupling, right? so for this we do for "Spring Cloud Config" provided by spring boot. </br>
 - Remember, this did not come from netflix, it is from boot itself. </br>
