@@ -17,3 +17,7 @@
 > Save a name as ${ApplicationName_COMPILER} and then Run </br>
 > Now to run the application, Go to MainMethod of the applications -> run as -> Java Application </br>
 
+# How to get Google Keys ? </br>
+- Go to https://developers.google.com/maps/documentation/javascript/get-api-key
+
+
