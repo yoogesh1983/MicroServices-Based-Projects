@@ -1,0 +1,158 @@
+@CHARSET "ISO-8859-1";
+
+.nav{
+	position: absolute;
+	left: 2px;
+	top: 0px;
+	width: 1532px;
+	height: 75px;
+	background-color: #006800;
+	/*border: 2px solid #0000ff; */
+}
+
+#myCountrylogo{
+	position: relative;
+	left: 2px;
+	top: 10px;
+	width: 40px;
+}
+
+#header_Menu_firstLayer{
+	position: relative;
+	background-color: #006800;
+	left: 170px;
+	top: -58px;
+	height:75px;
+	width: 1361px;
+}
+
+#vehicleTrackingText{
+	position: relative;
+	background-color: #006800;
+	left: 0px;
+	top:0px;
+	height:75px;
+	width: 400px;
+}
+
+.textfont{
+	font-weight: 900; 
+	font-size:27px; 
+	font-variant: small-caps; 
+	color:#e974a9;
+}
+
+#MenuItems_FirstLayer{
+	position: relative;
+	background-color: #006800;
+	left: 400px;
+	top: -75px;
+	height:75px;
+	width: 962px;
+}
+
+#MenuItems-actual{
+	position: relative;
+	background-color: #80ffff;
+	left:0px;
+	height:75px;
+	width: 700px;
+}
+
+
+
+/* ================ For Menu item ======================== */
+
+.menus {
+	position: relative;
+	background-color: #006800;
+	left:0px;
+	top: 0px;
+	height:75px;
+	width: 700px;
+}
+
+
+.menus_ul{
+	    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006800;
+}
+
+
+.menu_li {
+    float: left;
+}
+
+
+.menu-text {
+	display: inline-block;
+	color: #a5a49a;
+    text-align: center;
+    padding: 30px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.menu_li :hover {
+    background-color: #008040;
+    color: #ff00ff;
+}
+
+
+/*========================= Menu Item ended ==============================================================*/
+
+#signup-signin-signals-icon{
+	position: relative;
+	background-color: #006800;
+	top:-75px;
+	left:700px;
+	height:75px;
+	width: 262px;
+/* 	display:none; */
+}
+
+#loginuser-signout-signals-icon{
+	position: relative;
+	background-color: #006800;
+	top:-75px;
+	left:700px;
+	height:75px;
+	width: 262px;
+/* 	display:none; */
+}
+
+#sign-up-icon{
+	position: relative;
+	background-color: #006800;
+	top:30px;
+	left:80px;
+	height:25px;
+	width: 75px;
+}
+
+#sign-up-icon-role{
+    position: relative;
+	background-color: #006800;
+	top:30px;
+	left:45px;
+	height:25px;
+	width: 150px;
+}
+
+#sign-in-icon{
+	position: relative;
+	background-color: #006800;
+	top:5px;
+	left:170px;
+	height:25px;
+	width: 75px;
+}
+
+.font_for_authority{
+	font: italic bold 10px/10px Georgia, serif;
+	color:#e8d817;
+}

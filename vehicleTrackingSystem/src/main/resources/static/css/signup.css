@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+
+@import url("common/header.css");
+@import url("common/footer.css");
+@import url("common/nav.css");
+@import url("jscss.css");
+
+.signuppage_formtable {
+	width: 200px;
+	padding: 15px;
+	border: 2px solid red;
+}
+

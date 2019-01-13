@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+.footer{
+	position: absolute;
+	left: 2px;
+	top: 659px;;
+	width: 1532px;
+	background-color: #004800;
+	height: 75px;
+}

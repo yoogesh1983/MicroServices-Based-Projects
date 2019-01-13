@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+.loginpage_header {
+	color: green;
+}
+
+.loginpage_formtable {
+	width: 400px;
+	padding: 10px;
+	border: 2px solid red;
+}
+
+.loginpage_error {
+	Color: red;
+}
