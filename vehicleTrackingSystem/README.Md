@@ -1,5 +1,5 @@
 # Application URL:
-http://localhost:8080/VehicleTrackingSystem/dispatcher
+> http://localhost:8080/VehicleTrackingSystem/dispatcher
 
 # Database URL:
 > http://localhost:8080/VehicleTrackingSystem/dispatcher/h2-console </br>
@@ -10,11 +10,11 @@ http://localhost:8080/VehicleTrackingSystem/dispatcher
 
 # Username and passwords: 
 
-dba@gmail.com </br>
-Cou******1 </br>
+> dba@gmail.com </br>
+> Cou******1 </br>
 
-admin@gmail.com </br>
-Cou**********1 </br>
+> admin@gmail.com </br>
+> Cou**********1 </br>
 
-syoogesh@gmail.com </br>
-Cou*********1 </br>
+> syoogesh@gmail.com </br>
+> Cou*********1 </br>
