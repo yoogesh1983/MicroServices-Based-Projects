@@ -31,11 +31,11 @@
 
 <strong>2) Ribbon :</strong> </br>
 - This is For ClientSide load balancing ( Multiple instances of same application) </br>
-- Configured on <Positiontracking" and "vehicleTracking" application</br>
-- Need to do a configuration on "PositionTracking" application so that seperate instances created when started more than one times</br>
-- need to call "LoadBalancing" class's  "choose"  method instead of "DiscoveryClient" class's getInstance method in "VehicleTracking"
-application so that when Rest call is called, it will load balance and call seperate instances </br>
-- Need to start the "positiontracking" application more than one times </br>
+- Configured on <b>Positiontracking</b> and <b>vehicleTracking</b> application</br>
+- Need to do a configuration on <b>PositionTracking</b> application so that seperate instances created when started more than one times</br>
+- need to call "LoadBalancing" class's  "choose"  method instead of "DiscoveryClient" class's getInstance method in
+<b>VehicleTracking</b> application so that when Rest call is called, it will load balance and call seperate instances </br>
+- Need to start the <b>positiontracking</b> application more than one times </br>
 
 <strong>3) Hystrix :</strong> </br>
 - It provides two major features: </br>
