@@ -11,8 +11,8 @@
 
 # How to compile and run the application ?
 - Each applications need to be run seperately and need to be performed below steps to compile and run : </br>
-> Right click on project select Run -> Maven build ... </br>
-> Under Main Tab in Goal Section do the following -> clean install </br>
+> Right click on project -> Run As -> Maven build ... </br>
+> clean install (Under Goal Section) -> Apply </br>
 > Under JRE tab, select alternate JRE and select the JDK you have setup from Runtime environment </br>
 > Save a name as ${ApplicationName_COMPILER} and then Run </br>
 > Now to run the application, Go to MainMethod of the applications -> run as -> Java Application </br>
