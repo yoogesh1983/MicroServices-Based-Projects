@@ -1,13 +1,7 @@
-Application URL:
-================
+# Application URL:
 http://localhost:8080/VehicleTrackingSystem/dispatcher
 
-Note: Before Run or compile any of here, "spring-cloud-config" and "eureka-service-registry" applications must first 
-      compile and RUN before even compile or RUN other applications
-
-
-Database URL:
-=============
+# Database URL:
 http://localhost:8080/VehicleTrackingSystem/dispatcher/h2-console
 
 Driver Class =====>  org.h2.Driver
