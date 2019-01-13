@@ -1,19 +1,14 @@
-# What is the Application all about ?
-
 # Application URL:
 http://localhost:8080/VehicleTrackingSystem/dispatcher
 
 # Database URL:
-http://localhost:8080/VehicleTrackingSystem/dispatcher/h2-console
+http://localhost:8080/VehicleTrackingSystem/dispatcher/h2-console </br>
+Driver Class =====>  org.h2.Driver </br>
+JDBC URL =====> jdbc:h2:file:./Database </br>
+Username ====> sa </br>
+password ===> (leave it Blank) </br>
 
-Driver Class =====>  org.h2.Driver
-JDBC URL =====> jdbc:h2:file:./Database
-Username ====> sa
-password ===> (leave it Blank)
-
-
-Username and passwords: 
-====================
+# Username and passwords: 
 
 dba@gmail.com
 Cou******1
