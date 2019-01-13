@@ -7,4 +7,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; => positionReceiver </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; => vehicleTrackingSystem </br>
 
-- This application cannot be run until <strong>eureka-service-registry</strong> and <strong>spring-cloud-config</strong> are compiled and RUN first. So, it is Strongly recommonded to compile and run these two application even before compile other three applications </br>
+- This application cannot be run until <strong>spring-cloud-config</strong> and <strong>eureka-service-registry</strong> are compiled and RUN first. So, it is Strongly recommonded to compile and run these two application even before compile other three applications </br>
