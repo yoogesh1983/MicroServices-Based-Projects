@@ -38,9 +38,9 @@ application so that when Rest call is called, it will load balance and call sepe
 - Need to start the "positiontracking" application more than one times </br>
 
 <strong>3) Hystrix :</strong> </br>
-- It provides two major features:
+- It provides two major features: </br>
 &nbsp;&nbsp;&nbsp;&nbsp;1) Hystrix FallBack: </br>
-2) Hystrix Circuit Bracker: </br>
+&nbsp;&nbsp;&nbsp;&nbsp;2) Hystrix Circuit Bracker: </br>
 
 
                                 
