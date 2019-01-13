@@ -63,7 +63,4 @@
 - One option to get rid of this is create another microservice applacion which will manage this, but we don't another level of coupling, right? so for this we do for "Spring Cloud Config" provided by spring boot. </br>
 - Remember, this did not come from netflix, it is from boot itself. </br>
 - Need seperate application as a config server ( may do in git or may do in file path) </br>
-- Need to configure as a client in other application i.e. just add the pom dependency and that's it!! </br>
-
-
-                                
+- Need to configure as a client in other application i.e. just add the pom dependency and that's it!!
