@@ -1,5 +1,5 @@
-# MicroServices-Based-Projects
-A complete Spring Boot Microservice Project that contain following Applications: </br>
+# What is the Application about ? </br>
+&nbsp;=> This is a Spring Boot Microservice application that tracks Vehicle using the GoogleMap. It contains five independent applicaions which are loosely coupled : </br>
 
 => SpringCloudConfig</br>
 => eurekaDiscovery </br>
