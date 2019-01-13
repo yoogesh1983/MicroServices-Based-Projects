@@ -33,12 +33,13 @@
 - This is For ClientSide load balancing ( Multiple instances of same application) </br>
 - Configured on <Positiontracking" and "vehicleTracking" application</br>
 - Need to do a configuration on "PositionTracking" application so that seperate instances created when started more than one times</br>
-- need to call "LoadBalancing" class's  "choose"  method instead of "DiscoveryClient" class's getInstance method  in "VehicleTracking" application so that when Rest call is called, it will load balance and call seperate instances </br>
+- need to call "LoadBalancing" class's  "choose"  method instead of "DiscoveryClient" class's getInstance method in "VehicleTracking"
+application so that when Rest call is called, it will load balance and call seperate instances </br>
 - Need to start the "positiontracking" application more than one times </br>
 
 <strong>3) Hystrix :</strong> It provides two major features: </br>
-1) Hystrix FallBack: </br>
-2) 2) Hystrix Circuit Bracker: </br>
+3.1) Hystrix FallBack: </br>
+3.2) Hystrix Circuit Bracker: </br>
 
 
                                 
