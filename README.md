@@ -10,7 +10,7 @@
 - This application cannot be run until <strong>spring-cloud-config</strong> and <strong>eureka-service-registry</strong> are compiled and Run first. So, it is Strongly recommonded to compile and run these two applications even before compile other three applications. </br>
 
 # How to compile and run the application ?
-- Each applications need to run seperately and need to perform below steps to compile and run : </br>
+- Each applications need to be run seperately and need to be performed below steps to compile and run : </br>
 > Right click on project select Run -> Maven build ... </br>
 > Under Main Tab in Goal Section do the following -> clean install </br>
 > Under JRE tab, select alternate JRE and select the JDK you have setup from Runtime environment </br>
