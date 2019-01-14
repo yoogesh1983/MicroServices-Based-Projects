@@ -27,10 +27,8 @@
 
 # Application's Running on Ports
 > vehicleTrackingSystem -------> 8080 ----> http://localhost:8083 </br>
-> spring-cloud-config ---------> 8088 (don't know why it didn't work on 8081) </br>
+> spring-cloud-config ---------> 8088 (don't know why it didn't work on 8081)  ---> http://localhost:8088/application/default </br>
 > positionSimulator -----------> 8082 </br>
-> http://localhost:8082/vehicles/city_truck  </br>
-> http://localhost:8082/vehicles/village_truck</br>
 > Eureka-Service-Registry -----> 8083 ----> http://localhost:8083 </br>
 > positiontracking ------------> Automatic port is assigned by eureka server </br>
 
