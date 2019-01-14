@@ -29,7 +29,7 @@
 > vehicleTrackingSystem -----> http://localhost:8080/VehicleTrackingSystem/dispatcher </br>
 > spring-cloud-config -------> http://localhost:8088/application/default  &nbsp;(don't know why it didn't work on 8081)</br>
 > positionSimulator ---------> http://localhost:8082/vehicles/city_truck && http://localhost:8082/vehicles/village_truck</br>
-> Eureka-Service-Registry ---> 8083 ----> http://localhost:8083 </br>
+> Eureka-Service-Registry ---> http://localhost:8083 </br>
 > positiontracking ----------> Automatic port is assigned by eureka server </br>
 
 # How to get Google Keys ? </br>
