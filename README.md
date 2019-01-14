@@ -16,7 +16,7 @@
 > Hit the url http://localhost:8161/ with username/password as admin/admin </br>
 > Click to <b>Manage ActiveMQ broker</b> </br>
 > Click to <b>Queues</b> </br>
-> you can see the positionQueue there (after the <b>positionSimulator</a> application starts running) </br>
+> you can see the positionQueue there (after the <b>positionSimulator</b> application starts running) </br>
 
 - Each applications need to be run seperately and need to be performed below steps to compile and run : </br>
 > Right click on project -> Run As -> Maven build ... </br>
