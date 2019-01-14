@@ -11,7 +11,7 @@
 - This application cannot be run until <strong>spring-cloud-config</strong> and <strong>eureka-service-registry</strong> are compiled and Run first. So, it is Strongly recommonded to compile and run these two applications even before compile other three applications. </br>
 
 # How to compile and run the application ?
-- A message driven Queue ActiveMQ needs to be run before compile and run any application
+- A Message-Driven-Queue <b>ActiveMQ</b> needs to be run before compile and run any application
 > ff </br>
 - Each applications need to be run seperately and need to be performed below steps to compile and run : </br>
 > Right click on project -> Run As -> Maven build ... </br>
