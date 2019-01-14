@@ -26,7 +26,7 @@
 > Now to run the application, Go to MainMethod of the applications -> run as -> Java Application </br>
 
 # Application's Running on Ports
-> vehicleTrackingSystem -------> 8080 </br>
+> vehicleTrackingSystem -------> 8080 [http://localhost:8083]</br>
 > spring-cloud-config ---------> 8088 (don't know why it didn't work on 8081) </br>
 > positionSimulator -----------> 8082 </br>
 > Eureka-Service-Registry -----> 8083 </br>
