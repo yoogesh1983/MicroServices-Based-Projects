@@ -26,11 +26,11 @@
 > Now to run the application, Go to MainMethod of the applications -> run as -> Java Application </br>
 
 # Application's Running on Ports
-> vehicleTrackingSystem -------> 8080 ----> http://localhost:8083 </br>
-> spring-cloud-config ---------> 8088 (don't know why it didn't work on 8081) --> http://localhost:8088/application/default</br>
-> positionSimulator -----------> 8082 </br>
-> Eureka-Service-Registry -----> 8083 ----> http://localhost:8083 </br>
-> positiontracking ------------> Automatic port is assigned by eureka server </br>
+> vehicleTrackingSystem -----> http://localhost:8080/VehicleTrackingSystem/dispatcher </br>
+> spring-cloud-config -------> http://localhost:8088/application/default (don't know why it didn't work on 8081)</br>
+> positionSimulator ---------> 8082 </br>
+> Eureka-Service-Registry ---> 8083 ----> http://localhost:8083 </br>
+> positiontracking ----------> Automatic port is assigned by eureka server </br>
 
 # How to get Google Keys ? </br>
 > Go to https://developers.google.com/maps/documentation/javascript/get-api-key </br>
