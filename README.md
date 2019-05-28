@@ -54,9 +54,8 @@
 <b>3) Hystrix : </b> It provides two major features: </br> </br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1) Hystrix FallBack : </br>
 - If the service you are calling fails(exception), then a fallback method is executed </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> Using Hystrix fallback, you can define fall back method. That means put the sensative code inside hystrix method and also define which method to execute when exception occur in that sensative method </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> Configured only on "vehicleTracking" application
-&nbsp;&nbsp;&nbsp;&nbsp; </br>
+- Using Hystrix fallback, you can define fall back method. That means put the sensative code inside hystrix method and also define which method to execute when exception occur in that sensative method </br>
+- Configured only on "vehicleTracking" application </br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;3.2) Hystrix Circuit Bracker : </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> If the situation is dire, then a circuit breaker kicks into prevent any further network calls i.e. it prevent the cascading of failure </br>
