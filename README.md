@@ -57,10 +57,9 @@
 - Using Hystrix fallback, you can define fall back method. That means put the sensative code inside hystrix method and also define which method to execute when exception occur in that sensative method </br>
 - Configured only on "vehicleTracking" application </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.2) Hystrix Circuit Bracker : </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> If the situation is dire, then a circuit breaker kicks into prevent any further network calls i.e. it prevent the cascading of failure </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> if it get an excption more then ... times, then now it will not call the hystrix method, and instead it will directly call the </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fallback method instead </br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.2) Hystrix Circuit Bracker : </br></br>
+- If the situation is dire, then a circuit breaker kicks into prevent any further network calls i.e. it prevent the cascading of failure </br>
+- if it get an excption more then ... times, then now it will not call the hystrix method, and instead it will directly call the fallback method instead </br>
 
 <strong>4) Feign :</strong> </br>
 - it is a kind of spring data for microservices rest call where you create an interface and call like spring MVC </br>
