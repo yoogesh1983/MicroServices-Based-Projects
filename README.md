@@ -53,7 +53,7 @@
 
 <b>3) Hystrix : </b> It provides two major features: </br> </br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1) Hystrix FallBack : </br>
-> If the service you are calling fails(exception), then a fallback method is executed </br>
+- If the service you are calling fails(exception), then a fallback method is executed </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> Using Hystrix fallback, you can define fall back method. That means put the sensative code inside hystrix method and also define which method to execute when exception occur in that sensative method </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> Configured only on "vehicleTracking" application
 &nbsp;&nbsp;&nbsp;&nbsp; </br>
