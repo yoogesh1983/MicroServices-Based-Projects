@@ -51,8 +51,7 @@
 <b>VehicleTracking</b> application so that when Rest call is called, it will load balance and call seperate instances </br>
 - Need to start the <b>positiontracking</b> application more than one times </br>
 
-<b>3) Hystrix : </b> It provides two major features: </br> </br>
-
+<b>3) Hystrix : </b> It provides two major features: </br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1) Hystrix FallBack : </br>
 - If the service you are calling fails(exception), then a fallback method is executed </br>
 - Using Hystrix fallback, you can define fall back method. That means put the sensative code inside hystrix method and also define which method to execute when exception occur in that sensative method </br>
